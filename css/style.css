@@ -303,38 +303,36 @@ img {
     margin-left: 30px;
 }
 .constant_clients_bg {
-    width: 170px;
-    height: 92px;
-    border: 1px solid rgba(175, 177, 184, 1);
-    border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.constant_clients_bg:hover {
-    border: 1px solid var(--accent-color);
 }
 .constant_clients_bg:hover .constant_clients_link {
     color: var(--accent-color);
 }
 .constant_clients_link {
-    width: 106px;
-    height: 60px;
+    width: 170px;
+    height: 92px;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgba(175, 177, 184, 1);
+    border: 1px solid rgba(175, 177, 184, 1);
+    border-radius: 4px;
 }
 .constant_clients_icon {
     fill: currentColor;
 }
 .constant_clients_link:hover {
     color: var(--accent-color);
+    background-color: #FFFFFF;
+    border: 1px solid var(--accent-color);
 }
 .constant_clients_link:focus {
     background-color: #FFFFFF;
     color: var(--accent-color);
+    
 }
 .footer {
   background-color: var(--back-color);
